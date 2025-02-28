@@ -1,0 +1,42 @@
+- usa sharp per convertire immagini in avif
+- possbilità di traduzione testi eng-ita, ita-eng
+- modifica logo con logo.com
+- crea hamburger nav
+- link sul logo
+- contact section nella Home 
+- footer 
+- collega bottone Scopri di più (home) ad About Page
+- sistema i margini verticali nella about section (home)
+- le faq le metteremo nella sezione contact
+- la galleria 
+- imposta margini predefiniti fra una sezione e l'altra
+- trasferisci la galleria di Service.jsx in un component apposito.
+
+Facciamo le cose per ordine. Creiamo un component per ogni sezione:
+
+Queste sono le sezioni:
+
+1. Sezione "Chi Siamo"
+Storia: Una breve storia su come il professionista o l'azienda è iniziata, i motivi per cui è stato scelto questo settore, e le sfide superate.
+Mission e Vision: Descrivi la mission (ciò che fai) e la vision (dove vuoi arrivare) del tuo lavoro.
+2. Biografia del Professionista
+Esperienza: Una sezione dedicata alle esperienze professionali rilevanti, con un focus sulle competenze e successi principali.
+Educazione e Certificazioni: Elenco di titoli di studio, corsi di specializzazione e certificazioni ottenute.
+3. Valori Aziendali
+Una lista di valori fondamentali come integrità, qualità, innovazione, rispetto per l'ambiente, ecc.
+
+5. Clienti o Partner
+Elenco o loghi di clienti importanti o partner con cui hai collaborato, con eventuali testimonianze.
+6. Testimonianze
+Recensioni o feedback dei clienti, con citazioni e, se possibile, immagini.
+7. Timeline
+Una timeline interattiva che mostra i principali traguardi raggiunti nel corso degli anni.
+8. Gallery
+Una galleria di immagini che mostrano il professionista all'opera, eventi speciali, o il luogo di lavoro.
+9. FAQs
+Sezione dedicata alle domande frequenti, per rispondere in anticipo ai dubbi comuni dei clienti.
+10. Chiamata all'Azione (CTA)
+Invita i visitatori a contattarti, fissare un appuntamento, o seguire sui social media.
+
+Togliamo la sezione team, perchè il mio cliente lavora da solo
+

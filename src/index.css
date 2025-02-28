@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #F9FAFB;
+}
+
+#services #services-section #services-summary {
+  display: block;
+}
+
+#services #services-section h2 {
+  font-size: 36px;
+}
+
+@keyframes zoomEffect {
+    0% {
+      transform: scale(1); /* Immagine normale */
+    }
+    100% {
+      transform: scale(1.05); /* Immagine leggermente ingrandita */
+    }
+  }
+  
+  .hero-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden; /* Impedisce l'overflow del contenuto */
+  }
+  
+  .hero-background {
+    position: absolute;
+    inset: 0;
+    background-size: cover; /* Mantiene l'immagine di sfondo nella giusta proporzione */
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    transition: opacity 1s ease-out; /* Aggiungi transizione per l'opacità */
+    animation: zoomEffect 10s infinite alternate; /* Aggiungi effetto di zoom ciclico */
+    background-position: center; /* Mantiene l'immagine centrata durante lo zoom */
+  }
+  
+  .hero-background.hide {
+    opacity: 0; /* Nasconde l'immagine durante il cambiamento */
+  }
+  
+  .hero-background.show {
+    opacity: 1; /* Mostra l'immagine con l'animazione di dissolvenza */
+  }
+  
+  @keyframes slideInFromTop {
+    0% {
+      transform: translateY(-50px); /* Inizia sopra la posizione normale */
+      opacity: 0; /* Opacità a 0, quindi invisibile */
+    }
+    100% {
+      transform: translateY(0); /* Arriva alla posizione normale */
+      opacity: 1; /* Diventa visibile */
+    }
+  }
+  
+  .hero-content {
+    opacity: 0; /* Inizialmente invisibile */
+    animation: slideInFromTop 2s ease-out forwards; /* Cambia la durata a 3s per rallentare */
+  }
+  
+  .hero-content.show {
+    opacity: 1; /* Diventa visibile al cambio immagine */
+  }
+  
