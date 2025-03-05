@@ -4,11 +4,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronLeft, faChevronRight, faTimes } from '@fortawesome/free-solid-svg-icons';
 import services from '../../data/servicesData'; // Importa i dati
 import {Link} from 'react-router-dom'
+import projectsArray from '../../data/projectsData';
+
 
 const Service = () => {
-  const { id } = useParams(); // Ottieni l'ID dal URL
-  const service = services.find(s => s.id === parseInt(id)); // Trova il servizio corrispondente
-
+  const { serviceName } = useParams(); // Ottieni l'ID dal URL
+ const service = services.find(s => 
+    s.name.toLowerCase().replace(/\s+/g, '-') === serviceName
+  );
   const [isOpen, setIsOpen] = useState(false);
   const [photoIndex, setPhotoIndex] = useState(0);
   const timerRef = useRef(null); // Riferimento al timer
@@ -152,6 +155,8 @@ const Service = () => {
           </button>
         </div>
       )}
+
+      <div>{projectsArray[1].nome}</div>
     </div>
   );
 };

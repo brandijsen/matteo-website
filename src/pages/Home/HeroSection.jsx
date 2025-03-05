@@ -99,7 +99,7 @@ const HeroSection = () => {
         key={currentImageIndex} // Cambia il key ad ogni cambio di immagine
         className={`relative z-10 flex flex-col justify-center items-center text-center text-white h-full px-6 hero-content ${fade ? 'show' : ''}`}
       >
-        <h1 className="text-5xl font-bold leading-tight mb-4">Geologo Matteo Pompei</h1>
+        <h1 className="text-5xl font-bold leading-tight mb-4">Geologo Marco Rossi</h1>
         <p className="text-lg mb-6">
           Esplora i servizi che offriamo per l&rsquo;analisi e lo studio del terreno.
         </p>

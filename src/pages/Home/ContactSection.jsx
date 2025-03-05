@@ -17,7 +17,7 @@ const Contact = () => {
         <div className="flex items-center">
           <FaUser className="text-gray-800 mr-4" />
           <div>
-            <p className="text-gray-700">Geologo Matteo Pompei</p>
+            <p className="text-gray-700">Geologo Marco Rossi</p>
           </div>
         </div>
         <div className="flex items-center">
@@ -36,8 +36,8 @@ const Contact = () => {
           <FaMapMarkerAlt className="text-gray-800 mr-4" />
           <div>
             <p className="text-gray-700">
-              Via Molino, 17<br />
-              62020 Monte San Martino (MC), Italia
+              Corso Milano, 17<br />
+              65035 Roma (RM)
             </p>
           </div>
         </div>
@@ -52,7 +52,7 @@ const Contact = () => {
       {/* Mappa di Google con marker */}
       <div className="flex justify-end">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.7876383367948!2d13.450583476672596!3d43.02485687113896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132dfe7847f195e9%3A0xf5c55c7af17f1727!2sContrada%20Molino%2C%2017%2C%2062020%20Molino%20MC!5e0!3m2!1sit!2sit!4v1736295924603!5m2!1sit!2sit"
+          /*src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.7876383367948!2d13.450583476672596!3d43.02485687113896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132dfe7847f195e9%3A0xf5c55c7af17f1727!2sContrada%20Molino%2C%2017%2C%2062020%20Molino%20MC!5e0!3m2!1sit!2sit!4v1736295924603!5m2!1sit!2sit"*/
           width="400"
           height="300"
           style={{ border: 0 }}

@@ -32,7 +32,7 @@ const Footer = () => {
         {/* Nome con simbolo C cerchiata */}
         <div className="text-center">
           <p className="text-sm">
-            © 2025 Geologo Matteo Pompei <span className="text-lg"></span>
+            © 2025 Geologo Marco Rossi <span className="text-lg"></span>
           </p>
         </div>
       </div>
