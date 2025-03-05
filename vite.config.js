@@ -5,5 +5,6 @@ export default defineConfig({
   plugins: [react()],
   define: {
     global: {}
-  }
+  },
+  base: '/matteo-website/'  // Aggiungi questa riga con il nome del tuo repository su GitHub
 });
